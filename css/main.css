@@ -2512,7 +2512,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
+		background-color: #159fd6;
 		border-radius: 5px;
 		border: 0;
 		color: #ffffff !important;
@@ -2661,7 +2661,7 @@ input, select, textarea {
 			display: inline-block;
 			padding-right: 2.5em;
 			vertical-align: middle;
-			width: 38%;
+			width: 48%;
 		}
 
 			.features article .image img {
@@ -2672,7 +2672,7 @@ input, select, textarea {
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 60%;
+			width: 50%;
 		}
 
 			.features article .inner > :last-child {
@@ -2694,7 +2694,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #00ac9a;
+		background: #013a50;
 		color: #d2d7f2;
 		height: 100%;
 		overflow-y: auto;
