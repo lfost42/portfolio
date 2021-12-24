@@ -1,5 +1,20 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+:root {
+	--primary-color: #013a50;
+	--secondary-color: #025373;
+	--third-color: #0596A6;
+	--dark-color: #010440;
+	--light-color: #06BFBF;
+	--white-color: #dff3f0;
+	--highlight-color: rgb(224, 161, 44);
+}
+
+.appname {
+	font-family: 'Patua One', cursive;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -111,7 +126,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00ac9a !important;
+			color: var(--light-color) !important;
 		}
 
 	strong, b {
@@ -128,7 +143,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
+		color: var(--primary-color);
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1779,7 +1794,7 @@ input, select, textarea {
 	}
 
 	header.major h2, h3 {
-		color: #00ac9a;
+		color: var(--third-color);
 	}
 
 		header.major h2 + p {
@@ -1841,7 +1856,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #00ac9a;
+			border-color: var(--third-color);
 		}
 
 	select {
@@ -1946,7 +1961,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #00ac9a;
+			border-color: var(--third-color);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2395,7 +2410,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #013a50;
+				background: var(--primary-color);
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2511,7 +2526,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #00ac9a;
+		background-color: var(--third-color);
 		border-radius: 5px;
 		border: 0;
 		color: #ffffff !important;
@@ -2611,7 +2626,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #00ac9a;
+			background-color: var(--third-color);
 			color: #ffffff !important;
 		}
 
@@ -2626,7 +2641,7 @@ input, select, textarea {
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #39c29d;
+				background-color: var(--third-color);
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2693,7 +2708,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #013a50;
+		background: var(--primary-color);
 		color: #d2d7f2;
 		height: 100%;
 		overflow-y: auto;
@@ -2782,7 +2797,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb1;
+					border-top: solid 2px var(--third-color);
 					display: block;
 					padding: 0;
 				}
@@ -3024,7 +3039,7 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background: #222;
-				color: #fff;
+				color: rgb(228, 228, 228);
 				min-width: 320px;
 			}
 
@@ -3069,8 +3084,8 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #00ac9a;
-						color: #ffffff;
+						background: var(--third-color);
+						color: #dadada;
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
