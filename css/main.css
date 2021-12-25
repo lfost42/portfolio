@@ -1,10 +1,5 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
-
-.appname {
-	font-family: 'Patua One', cursive;
-}
 
 :root {
 	--primary-color: #013a50;
@@ -15,17 +10,6 @@
 	--white1-color: #e6f0f5;
 	--warning-color: #ff6052;
 	--danger-color: #A63228;
-}
-
-:root {
-	--primary-color: #013a50;
-	--secondary-color: #0ead9b;
-	--dark-color: #002e45;
-	--light-color: #10B098;
-	--white-color: #fafdfd;
-	--white1-color: #e5f0ef;
-	--peach-color: #ff6052;
-	--highlightshadow-color: #A63228;
 }
 
 html, body, div, span, applet, object,
@@ -104,7 +88,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: rgb(238, 235, 229);
+		background: var(--white-color);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -138,7 +122,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: var(--light-color) !important;
+			color: var(--secondary-color) !important;
 		}
 
 	strong, b {
@@ -155,7 +139,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: var(--primary-color);
+		color: #777;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1846,7 +1830,7 @@ input, select, textarea {
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 3px #e4e4e4;
+		border: solid 2px #e4e4e4;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1973,7 +1957,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: var(--third-color);
+			border-color: var(--secondary-color);
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2256,7 +2240,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px var(--white-color);
+				border-top: solid 2px #f4f4f4;
 				padding: 0.5em 0;
 			}
 
@@ -2422,10 +2406,9 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: var(--dark-color);
+				background: var(--primary-color);
 				border-radius: 100%;
 				color: var(--white-color);
-				box-shadow: 3px 3px rgb(169, 195, 197);
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2470,13 +2453,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 2px #f4f4f4;
+			border: solid 2px var(--white-color);
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #fafafa;
+				background-color: var(--white-color);
 			}
 
 		table td {
@@ -2492,11 +2475,11 @@ input, select, textarea {
 		}
 
 		table thead {
-			border-bottom: solid 4px #e4e4e4;
+			border-bottom: solid 4px var(--white-color);
 		}
 
 		table tfoot {
-			border-top: solid 4px #e4e4e4;
+			border-top: solid 4px var(--white-color);
 		}
 
 		table.alt {
@@ -2540,7 +2523,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: var(--primary-color);
-		border-radius: 15px;
+		border-radius: 5px;
 		border: 0;
 		color: var(--white-color) !important;
 		cursor: pointer;
@@ -2558,7 +2541,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: var(--primary-color);
+			background-color: #a5a5a5;
 			color: var(--white-color) !important;
 		}
 
@@ -2566,8 +2549,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: var(--primary-color);
-			color: var(--white-color);
+			background-color: #8b8b8b;
 		}
 
 		input[type="submit"].icon,
@@ -2610,7 +2592,7 @@ input, select, textarea {
 		input[type="button"].alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px var(--white-color);
+			box-shadow: inset 0 0 0 2px #e4e4e4;
 			color: #777 !important;
 		}
 
@@ -2618,7 +2600,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: var(--primary-color);
+				background-color: #f4f4f4;
 				color: #777 !important;
 			}
 
@@ -2626,7 +2608,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: var(--prumary-color);
+				background-color: var(--white-color);
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -2649,7 +2631,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			.button.primary:hover {
 				background-color: var(--primary-color);
-				box-shadow: 3px 5px rgb(169, 195, 197);
+				color: var(--secondary-color);
+				box-shadow: 5px 5px rgb(193, 207, 214);
 			}
 
 			input[type="submit"].primary:active,
@@ -2666,8 +2649,8 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: var(--dark-color) !important;
-			box-shadow: inset 0 -0.15em 0 0 rgb(169, 195, 197);
+			background-color: var(--danger-color) !important;
+			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: var(--white-color) !important;
 			cursor: default;
 			opacity: 0.25;
@@ -2723,7 +2706,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: var(--primary-color);
+		background: #013a50;
 		color: var(--white-color);
 		height: 100%;
 		overflow-y: auto;
@@ -2739,20 +2722,19 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: var(--dark-color);
+				color: var(--white-color);
 			}
 
 		#header header p {
-			color: var(--dark-color);
+			color: #5998b1;
 		}
 
 		#header a {
-			color: var(--secondary-color);
+			color: #3294c2;
 		}
 
 			#header a:hover {
-				color: var(--light-color) !important;
-				font-weight: heavy;
+				color: var(--secondary-color) !important;
 			}
 
 		#header > header {
@@ -2796,8 +2778,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					background-color: (--primary-color);
-					color: var(--white-color);
+					color: var(--white1-color);
 				}
 
 		#header > nav {
@@ -2814,7 +2795,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px var(--light-color);
+					border-top: solid 2px var(--secondary-color);
 					display: block;
 					padding: 0;
 				}
@@ -2825,7 +2806,6 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						background-color: var(--secondary-color);
 						color: var(--white-color) !important;
 						display: block;
 						padding: 0.85em 0;
@@ -2844,21 +2824,21 @@ input, select, textarea {
 /* Wrapper */
 
 	#wrapper {
-		background: var(--white1-color);
+		background: var(--white-color);
 		padding-right: 23em;
-		border-bottom: 1mm solid var(--secondary-color);
+		border-bottom: 1px solid var(--secondary-color);
 	}
 
 	#wrapper1 {
-		background: var(--white-color);
+		background: var(--white1-color);
 		padding-right: 23em;
-		border-bottom: 1mm solid var(--secondary-color);
+		border-bottom: 1px solid var(--secondary-color);
 	}
 
 /* Main */
 
 	#main > section {
-		border-top: solid 6px var(--light-color);
+		border-top: solid 6px var(--white-color);
 	}
 
 		#main > section > .container {
@@ -3063,7 +3043,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: var(--primary-color);
 				color: var(--white-color);
 				min-width: 320px;
 			}
@@ -3102,14 +3082,14 @@ input, select, textarea {
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
-						line-height: 2px;
+						line-height: 1;
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
 					#titleBar .toggle:before {
-						background: var(--primary-color);
+						background: var(--secondary-color);
 						color: var(--white-color);
 						content: '\f0c9';
 						display: block;
