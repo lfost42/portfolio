@@ -17,6 +17,17 @@
 	--danger-color: #A63228;
 }
 
+:root {
+	--primary-color: #013a50;
+	--secondary-color: #0ead9b;
+	--dark-color: #002e45;
+	--light-color: #10B098;
+	--white-color: #fafdfd;
+	--white1-color: #e5f0ef;
+	--peach-color: #ff6052;
+	--highlightshadow-color: #A63228;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1795,7 +1806,7 @@ input, select, textarea {
 	}
 
 	header.major h2, h3 {
-		color: var(--primary-color);
+		color: var(--dark-color);
 	}
 
 		header.major h2 + p {
@@ -1857,7 +1868,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: var(--dark-color);
+			border-color: var(--secondary-color);
 		}
 
 	select {
@@ -2245,7 +2256,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px var(--secondary-color);
+				border-top: solid 2px var(--white-color);
 				padding: 0.5em 0;
 			}
 
@@ -2411,7 +2422,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: var(--secondary-color);
+				background: var(--dark-color);
 				border-radius: 100%;
 				color: var(--white-color);
 				box-shadow: 3px 3px rgb(169, 195, 197);
@@ -2630,7 +2641,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		.button.primary {
 			background-color: var(--primary-color);
-			color: #ffffff !important;
+			color: var(--white-color) !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -3053,11 +3064,7 @@ input, select, textarea {
 				width: 100%;
 				z-index: 10001;
 				background: #222;
-<<<<<<< HEAD
 				color: var(--white-color);
-=======
-				color: var(--white-color);
->>>>>>> 401361d (modified color scheme)
 				min-width: 320px;
 			}
 
