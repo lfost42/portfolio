@@ -1830,7 +1830,7 @@ input, select, textarea {
 		appearance: none;
 		border-radius: 5px;
 		border: none;
-		border: solid 2px #e4e4e4;
+		border: solid 3px #e4e4e4;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2240,7 +2240,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #f4f4f4;
+				border-top: solid 2px var(--white-color);
 				padding: 0.5em 0;
 			}
 
@@ -2406,9 +2406,10 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: var(--primary-color);
+				background: var(--dark-color);
 				border-radius: 100%;
 				color: var(--white-color);
+				box-shadow: 3px 3px rgb(169, 195, 197);
 				display: block;
 				height: 2.5em;
 				left: 0;
@@ -2541,7 +2542,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #a5a5a5;
+			background-color: var(--primary-color);
 			color: var(--white-color) !important;
 		}
 
@@ -2549,7 +2550,8 @@ input, select, textarea {
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #8b8b8b;
+			background-color: var(--primary-color);
+			color: var(--white-color);
 		}
 
 		input[type="submit"].icon,
@@ -2592,7 +2594,7 @@ input, select, textarea {
 		input[type="button"].alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e4e4e4;
+			box-shadow: inset 0 0 0 2px var(--white-color);
 			color: #777 !important;
 		}
 
@@ -2600,7 +2602,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			input[type="button"].alt:hover,
 			.button.alt:hover {
-				background-color: #f4f4f4;
+				background-color: var(--primary-color);
 				color: #777 !important;
 			}
 
@@ -2608,7 +2610,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: var(--white-color);
+				background-color: var(--prumary-color);
 			}
 
 			input[type="submit"].alt.icon:before,
@@ -2631,8 +2633,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			.button.primary:hover {
 				background-color: var(--primary-color);
-				color: var(--secondary-color);
-				box-shadow: 5px 5px rgb(193, 207, 214);
+				box-shadow: 5px 5px rgb(169, 195, 197);
 			}
 
 			input[type="submit"].primary:active,
@@ -2726,11 +2727,11 @@ input, select, textarea {
 			}
 
 		#header header p {
-			color: #5998b1;
+			color: var(--primary-color);
 		}
 
 		#header a {
-			color: #3294c2;
+			color: var(--secondary-color);
 		}
 
 			#header a:hover {
@@ -2778,7 +2779,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: var(--white1-color);
+					color: var(--white-color);
 				}
 
 		#header > nav {
