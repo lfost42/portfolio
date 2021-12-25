@@ -2,16 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 
-:root {
-	--primary-color: #013a50;
-	--secondary-color: #025373;
-	--third-color: #0596A6;
-	--dark-color: #010440;
-	--light-color: #06BFBF;
-	--white-color: #dff3f0;
-	--highlight-color: rgb(224, 161, 44);
-}
-
 .appname {
 	font-family: 'Patua One', cursive;
 }
@@ -21,10 +11,10 @@
 	--secondary-color: #0ead9b;
 	--dark-color: #002e45;
 	--light-color: #10B098;
-	--white-color: #fafdfd;
-	--white1-color: #e5f0ef;
-	--peach-color: #ff6052;
-	--highlightshadow-color: #A63228;
+	--white-color: #e8f7f7;
+	--white1-color: #e6f0f5;
+	--warning-color: #ff6052;
+	--danger-color: #A63228;
 }
 
 html, body, div, span, applet, object,
@@ -1805,11 +1795,7 @@ input, select, textarea {
 	}
 
 	header.major h2, h3 {
-<<<<<<< HEAD
-		color: var(--third-color);
-=======
-		color: var(--dark-color);
->>>>>>> 401361d (modified color scheme)
+		color: var(--primary-color);
 	}
 
 		header.major h2 + p {
@@ -1871,11 +1857,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-<<<<<<< HEAD
-			border-color: var(--third-color);
-=======
-			border-color: var(--secondary-color);
->>>>>>> 401361d (modified color scheme)
+			border-color: var(--dark-color);
 		}
 
 	select {
@@ -2263,7 +2245,7 @@ input, select, textarea {
 		}
 
 			ul.alt li {
-				border-top: solid 2px var(--white-color);
+				border-top: solid 2px var(--secondary-color);
 				padding: 0.5em 0;
 			}
 
@@ -2429,11 +2411,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-<<<<<<< HEAD
-				background: var(--primary-color);
-=======
-				background: var(--dark-color);
->>>>>>> 401361d (modified color scheme)
+				background: var(--secondary-color);
 				border-radius: 100%;
 				color: var(--white-color);
 				box-shadow: 3px 3px rgb(169, 195, 197);
@@ -2550,13 +2528,8 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-<<<<<<< HEAD
-		background-color: var(--third-color);
-=======
 		background-color: var(--primary-color);
-		color: var(--white-color);
->>>>>>> 401361d (modified color scheme)
-		border-radius: 5px;
+		border-radius: 15px;
 		border: 0;
 		color: var(--white-color) !important;
 		cursor: pointer;
@@ -2656,13 +2629,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-<<<<<<< HEAD
-			background-color: var(--third-color);
-			color: #ffffff !important;
-=======
 			background-color: var(--primary-color);
-			color: var(--white-color) !important;
->>>>>>> 401361d (modified color scheme)
+			color: #ffffff !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2677,11 +2645,7 @@ input, select, textarea {
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-<<<<<<< HEAD
-				background-color: var(--third-color);
-=======
 				background-color: var(--secondary-color);
->>>>>>> 401361d (modified color scheme)
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2691,7 +2655,7 @@ input, select, textarea {
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #888 !important;
+			background-color: var(--dark-color) !important;
 			box-shadow: inset 0 -0.15em 0 0 rgb(169, 195, 197);
 			color: var(--white-color) !important;
 			cursor: default;
@@ -2748,13 +2712,8 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-<<<<<<< HEAD
 		background: var(--primary-color);
-		color: #d2d7f2;
-=======
-		background: #013a50;
 		color: var(--white-color);
->>>>>>> 401361d (modified color scheme)
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2769,11 +2728,11 @@ input, select, textarea {
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: var(--white-color);
+				color: var(--dark-color);
 			}
 
 		#header header p {
-			color: var(--primary-color);
+			color: var(--dark-color);
 		}
 
 		#header a {
@@ -2826,6 +2785,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
+					background-color: (--primary-color);
 					color: var(--white-color);
 				}
 
@@ -2843,11 +2803,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-<<<<<<< HEAD
-					border-top: solid 2px var(--third-color);
-=======
 					border-top: solid 2px var(--light-color);
->>>>>>> 401361d (modified color scheme)
 					display: block;
 					padding: 0;
 				}
@@ -2858,6 +2814,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
+						background-color: var(--secondary-color);
 						color: var(--white-color) !important;
 						display: block;
 						padding: 0.85em 0;
@@ -3097,7 +3054,7 @@ input, select, textarea {
 				z-index: 10001;
 				background: #222;
 <<<<<<< HEAD
-				color: rgb(228, 228, 228);
+				color: var(--white-color);
 =======
 				color: var(--white-color);
 >>>>>>> 401361d (modified color scheme)
@@ -3138,20 +3095,15 @@ input, select, textarea {
 						font-style: normal;
 						font-variant: normal;
 						text-rendering: auto;
-						line-height: 1;
+						line-height: 2px;
 						text-transform: none !important;
 						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
 					#titleBar .toggle:before {
-<<<<<<< HEAD
-						background: var(--third-color);
-						color: #dadada;
-=======
-						background: var(--light-color);
+						background: var(--primary-color);
 						color: var(--white-color);
->>>>>>> 401361d (modified color scheme)
 						content: '\f0c9';
 						display: block;
 						font-size: 18px;
