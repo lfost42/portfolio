@@ -2514,7 +2514,7 @@ input, select, textarea {
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
-	.button {
+	.button  {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -2544,13 +2544,14 @@ input, select, textarea {
 		.button:hover {
 			background-color: var(--primary-color);
 			color: var(--white-color) !important;
+			box-shadow: 5px 5px rgb(169, 195, 197);
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: var(--primary-color);
+			background-color: var(--secondary-color);
 			color: var(--white-color);
 		}
 
@@ -2604,13 +2605,14 @@ input, select, textarea {
 			.button.alt:hover {
 				background-color: var(--primary-color);
 				color: #777 !important;
+				box-shadow: 5px 5px rgb(169, 195, 197);
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
 			input[type="button"].alt:active,
 			.button.alt:active {
-				background-color: var(--prumary-color);
+				background-color: var(--secondary-color);
 			}
 
 			input[type="submit"].alt.icon:before,
