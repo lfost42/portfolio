@@ -1,12 +1,11 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nanum+Myeongjo&display=swap');
 
 :root {
 	--primary-color: #6b5e51;
-	--secondary-color: #a89076;
 	--dark-color: #1d1c1a;
 	--light-color: rgb(204 175 0);
-	--white-color: #f4f2ee;
+	--white-color: #fcf8f1;
 	--white-color1: #fffefd;
 	--highlight-color: #a89076;
 	--warning-color: #ff6052;
@@ -200,8 +199,8 @@ input,
 select,
 textarea {
 	color: #888;
-	font-family: "Lato", sans-serif;
-	font-size: 16pt;
+	font-family: 'Lora', serif;
+	font-size: 17pt;
 	font-weight: 400;
 	line-height: 1.75em;
 }
@@ -218,7 +217,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: var(--secondary-color) !important;
+	color: var(--highlight-color) !important;
 }
 
 strong,
@@ -242,10 +241,11 @@ h3,
 h4,
 h5,
 h6 {
-	color: #777;
+	color: var(--primary-color);
 	font-weight: 700;
 	line-height: 1em;
 	margin: 0 0 0.5625em 0;
+	font-family: 'Nanum Myeongjo', serif;
 }
 
 h1 a,
@@ -298,7 +298,7 @@ sup {
 
 hr {
 	border: 0;
-	border-bottom: solid 2px #f4f4f4;
+	border-bottom: solid 2px var(--primary-color);
 	margin: 2.25em 0;
 }
 
@@ -1962,7 +1962,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-	border-color: var(--secondary-color);
+	border-color: var(--highlight-color);
 }
 
 select {
@@ -2067,7 +2067,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-	border-color: var(--secondary-color);
+	border-color: var(--highlight-color);
 }
 
 input[type="checkbox"]+label:before {
@@ -2382,10 +2382,10 @@ ul.actions li {
 }
 
 ul.actions.special {
-	-moz-justify-content: center;
-	-webkit-justify-content: center;
-	-ms-justify-content: center;
-	justify-content: center;
+	-moz-justify-content: left;
+	-webkit-justify-content: left;
+	-ms-justify-content: left;
+	justify-content: left;
 	width: 100%;
 	margin-left: 0;
 }
@@ -2661,7 +2661,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
-	background-color: var(--secondary-color);
+	background-color: var(--highlight-color);
 	color: var(--white-color);
 }
 
@@ -2722,7 +2722,7 @@ input[type="submit"].alt:active,
 input[type="reset"].alt:active,
 input[type="button"].alt:active,
 .button.alt:active {
-	background-color: var(--secondary-color);
+	background-color: var(--highlight-color);
 }
 
 input[type="submit"].alt.icon:before,
@@ -2854,11 +2854,11 @@ input[type="button"]:disabled,
 }
 
 #header a {
-	color: var(--secondary-color);
+	color: var(--highlight-color);
 }
 
 #header a:hover {
-	color: var(--secondary-color) !important;
+	color: var(--highlight-color) !important;
 }
 
 #header>header {
@@ -2919,7 +2919,7 @@ input[type="button"]:disabled,
 }
 
 #header>nav ul li {
-	border-top: solid 2px var(--secondary-color);
+	border-top: solid 2px var(--highlight-color);
 	display: block;
 	padding: 0;
 }
@@ -2950,19 +2950,19 @@ input[type="button"]:disabled,
 #wrapper {
 	background: var(--white-color);
 	padding-right: 23em;
-	border-bottom: 2px solid var(--secondary-color);
+	border-bottom: 2px solid var(--highlight-color);
 }
 
 #wrapper1 {
 	background: var(--white1-color);
 	padding-right: 23em;
-	border-bottom: 2px solid var(--secondary-color);
+	border-bottom: 2px solid var(--highlight-color);
 }
 
 /* Main */
 
 #main>section {
-	border-top: solid 2px var(--secondary-color);
+	border-top: solid 2px var(--highlight-color);
 }
 
 #main>section>.container {
@@ -3179,7 +3179,7 @@ input[type="button"]:disabled,
 		top: 0;
 		width: 100%;
 		z-index: 10001;
-		background: var(--primary-color);
+		background: var(--dark-color);
 		color: var(--white-color);
 		min-width: 320px;
 	}
@@ -3225,7 +3225,7 @@ input[type="button"]:disabled,
 	}
 
 	#titleBar .toggle:before {
-		background: var(--secondary-color);
+		background: var(--highlight-color);
 		color: var(--white-color);
 		content: '\f0c9';
 		display: block;
