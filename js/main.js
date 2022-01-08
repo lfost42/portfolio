@@ -8,7 +8,7 @@
 		$wrapper = $('#wrapper');
 
 // Get cards
-var cards = $('.card-body');
+var cards = $('.card-body-certs');
 var maxHeight = 0;
 
 // Loop all cards and check height, if bigger than max then save it
