@@ -8,7 +8,7 @@
 		$wrapper = $('#wrapper');
 
 // Get cards
-var cards = $('.card-body-certs');
+function resizeCards(cards) {
 var maxHeight = 0;
 
 // Loop all cards and check height, if bigger than max then save it
@@ -21,7 +21,9 @@ for (var i = 0; i < cards.length; i++) {
 for (var i = 0; i < cards.length; i++) {
   $(cards[i]).height(maxHeight);
 }
-
+}
+resizeCards($('.card-body-certs'));
+resizeCards($('.card-body-projects'));
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
