@@ -198,7 +198,7 @@ body,
 input,
 select,
 textarea {
-	color: #888;
+	color: rgb(61, 35, 0);
 	font-family: 'Lora', serif;
 	font-size: 17pt;
 	font-weight: 400;
@@ -1873,7 +1873,7 @@ article.special {
 }
 
 header p {
-	color: #aaa;
+	color: rgb(77, 62, 34);
 	position: relative;
 	margin: 0 0 1.6875em 0;
 }
@@ -1909,6 +1909,13 @@ header.major h2+p {
 	font-weight: 700;
 	margin-top: -0.75em;
 }
+
+
+/* Checklist */
+.checklist > li i {
+	color: var(--primary-color)
+}
+
 
 /* Form */
 

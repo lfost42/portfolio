@@ -27,8 +27,8 @@
 			<ul>
 				<li><a href="#about" class="active">About</a></li>
 				<li><a href="#skills">Technical Skills</a></li>
-				<!-- <li><a href="#portfolio">Portfolio Projects</a></li> -->
-				<li><a href="#challenges">Challenges</a></li>
+				<li><a href="#projects">Feature Projects</a></li>
+				<!-- <li><a href="#challenges">Challenges</a></li> -->
 				<li><a href="#education">Education</a></li>
 				<li><a href="#certifications">Certifications</a></li>
 				<li><a href="#contact">Contact Me</a></li>
@@ -59,12 +59,12 @@
 				<div class="container">
 					<img src="img/brand_brown.png" width="365" height="50" alt="LYNDA FOSTER brand photo"><br>
 					<hr style="width:45%" justify-content-center>
-					<p>Computer Science graduate with an insatiable thirst for learning. I enjoy building modular,
-						scalable, and
-						maintainable software solutions. Experience in full stack engineering, object-relational
-						mapping, and unit testing.</p>
+					<p>Computer Science graduate with an insatiable thirst for learning. I leverage a diverse background
+						in Accounting, Finance, and Data Analytics to create software solutions that are scalable,
+						maintainable, and easy to expand.
+					</p>
 					<ul class="actions special">
-						<li><a href="#portfolio" class="scrolly btn btn-outline-dark text-dark">Portfolio Projects</a>
+						<li><a href="#projects" class="scrolly btn btn-outline-dark text-dark">Feature Projects</a>
 						</li>
 					</ul>
 				</div>
@@ -86,10 +86,9 @@
 					<p></p>
 					<ul class="feature-icons">
 						<li class="icon solid fa-code">C#, SQL, JavaScript, HTML/CSS</li>
-						<li class="icon solid fa-database"> MS SQL Server, PostgreSQL, MySQL, Oracle, ORM (Entity
-							Framework and
-							Dapper)</li>
-						<li class="icon solid fa-bolt">Visual Studio (ASP.NET Core MVC), GitHub, Splunk, Jupyter, VMware
+						<li class="icon solid fa-database"> MS SQL Server and PostgreSQL with object-relational mapping
+							in Entity Framework and Dapper</li>
+						<li class="icon solid fa-bolt">Visual Studio (ASP.NET Core MVC), GitHub, Splunk, VSCode, VMware
 						</li>
 						<li class="icon solid fa-box-open">Windows, CentOS, iOS, Mac OS X, OpenVMS Alpha OS</li>
 					</ul>
@@ -104,94 +103,84 @@
 		<!-- ==== MAIN ==== -->
 		<div id="main">
 
-			<!-- ==== PORTFOLIO ==== -->
-			<section id="portfolio">
+			<!-- ==== PROJECTS ==== -->
+			<section id="feature">
 				<div class="container">
 					<header class="major">
-						<h3>Projects</h3>
-						<p>
-							A few projects that showcase my technical acumen, interests, and ambitions.
-						</p>
+						<h3>Feature Projects</h3>		
 					</header>
+					
+					<div class="container">
+						<div class="row row-cols-1 row-cols-md-2 mb-sm-4 g-sm-4">
+							<a href="https://github.com/lfost42/SoftwarePlanner" target="new">
+								<div class="card shadow">
+									<img src="img/planner.png" alt="Software Planner logo" class="card-img-top">
+									<div class="card-body card-body-projects">
+										<p class="card-text">
+											A tool that enables teams and developers to collaboratively design applications, manage
+											requirements, track progress, and meet deadlines.
+											<!-- Integrated tracking system enables developers to achieve target metrics and groups of developers to collaborate throughout the software development life cycle.<br>
+											Implements identity and role based access/rendering.   -->
+										</p>
+									</div>
+								</div>
+							</a>
+
+							<a href="https://github.com/lfost42/BrailleSort" target="new">
+								<div class="card shadow">
+									<img src="img/sort.png" alt="Braille Sort logo" class="card-img-top">
+									<div class="card-body card-body-projects">
+										<p class="card-text">
+											An app that helps braille transcribers format the Special
+											Symbols Page in braille transcriptions.
+										</p>
+									</div>
+								</div>
+							</div>
+							</a>
+
+				<ul class="fa-ul pt-2 checklist">
+					<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Languages: .NET/C#, SQL, JavaScript, HTML/CSS</li>
+					<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Architectural Design Patterns: DAO (Data Access Object) and MVC (Model View Controller)</li>
+					<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Databases: MS SQL Server and PostgreSQL with object-relational mapping via Dapper and Entity Framework Core</li>
+				</ul>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- ==== CHALLENGES ==== -->
+			<!-- <section id="challenges">
+				<div class="container">
+					<h3>Coding Challenges</h3>
+					<p>Smaller apps that I'm building to explore and study various topics and components I may want to
+						utilize in a larger project at some point.</p>
+					</header>
+
 					<div class="container">
 						<div class="row row-cols-1 g-4">
 
-
-
-							<a href="https://github.com/lfost42/BrailleSort">
-								<div class="col col-sm-7 col-md-6 col-lg-6">
-									<div class="card shadow">
-										<img src="img/sort.png" alt="BRAILLE SORT logo" class="card-img-top">
-										<div class="card-body card-body-projects">
-											<p class="card-text">
-												An app that helps braille transcribers format the Special
-												Symbols Page in braille transcriptions.
-											</p>
-										</div>
+							<div class="col col-sm-7 col-md-6 col-lg-6">
+								<div class="card shadow">
+									<img src="img/guest.png" alt="Guestbook logo" class="card-img-top">
+									<div class="card-body card-body-projects">
+										<p class="card-text">
+											A study in object-relational mapping with Entity Framework Core, image
+											services, and CRUD applications with PostgreSQL.
+										</p>
+										<a href="https://lfost42-guestbook.herokuapp.com/Guests"
+											class="button primary mb-2 me-1">Demo</a>
+										<a href="https://github.com/lfost42/Guestbook" class="button primary">Code</a>
 									</div>
-							</a>
-						</div>
-
-						<!-- <div class="col col-sm-10 col-md-9 col-lg-9">
-									<div class="card shadow">
-										<img src="img/planner.png" alt="Software Planner logo" class="card-img-top">
-										<div class="card-body">
-											<p class="card-text">
-												A tool that enables developers the ability to design applications, manage requirements, track progress, and meet deadlines. <br>
-												Integrated tracking system enables developers to achieve target metrics and groups of developers to collaborate throughout the software development life cycle.<br>
-												Implements identity and role based access/rendering. SOLID principles demonstrated via object and record data structures. 
-											</p>
-										</div>
-									</div>
-									</div>-->
-
-						<!-- </div>
-									</div>
-								</div>
-							</section> -->
-
-						<!-- ==== CHALLENGES ==== -->
-						<!-- <section id="challenges">
-								<div class="container">
-                                    <h3>Coding Challenges</h3>
-									<p>Smaller apps that I'm building to explore and study various topics and components I may want to utilize in a larger project at some point.</p>
-                                    </header>
-
-									<div class="container">
-										<div class="row row-cols-1 g-4"> -->
-
-						<div class="col col-sm-7 col-md-6 col-lg-6">
-							<div class="card shadow">
-								<img src="img/guest.png" alt="Guestbook logo" class="card-img-top">
-								<div class="card-body card-body-projects">
-									<p class="card-text">
-										A study in object-relational mapping with Entity Framework Core, image
-										services, and CRUD applications with PostgreSQL.
-									</p>
-									<a href="https://lfost42-guestbook.herokuapp.com/Guests"
-										class="button primary mb-2 me-1">Demo</a>
-									<a href="https://github.com/lfost42/Guestbook" class="button primary">Code</a>
 								</div>
 							</div>
+
 						</div>
-
-						<!-- <div class="col col-sm-10 col-md-9 col-lg-9">
-										<div class="card shadow">
-											<img src="img/movies.png" alt="MOVIES logo" class="card-img-top">
-											<div class="card-body">
-												<p class="card-text">
-													COMING SOON: A study in API integration.
-												</p>
-											</div>
-										</div>
-									</div> -->
-
 					</div>
 				</div>
-
+			</section> -->
 		</div>
-		</section>
-	</div>
 	</div>
 
 	<!-- ==== WRAPPER ==== -->
