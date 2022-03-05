@@ -24,6 +24,7 @@ for (var i = 0; i < cards.length; i++) {
 }
 resizeCards($('.card-body-certs'));
 resizeCards($('.card-body-projects'));
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
