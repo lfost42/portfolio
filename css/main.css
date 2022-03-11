@@ -3042,7 +3042,7 @@ input[type="button"]:disabled,
 
 	/* Wrapper */
 
-	#wrapper {
+	#wrapper{
 		padding-right: 21em;
 	}
 
@@ -3155,7 +3155,7 @@ input[type="button"]:disabled,
 
 	/* Wrapper */
 
-	#wrapper {
+	#wrapper, #wrapper1 {
 		-moz-backface-visibility: hidden;
 		-webkit-backface-visibility: hidden;
 		-ms-backface-visibility: hidden;
