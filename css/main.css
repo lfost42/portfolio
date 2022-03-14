@@ -349,6 +349,19 @@ pre code {
 	text-align: right;
 }
 
+/* card-body-certs */
+.card .card-body {
+	display: none;
+}
+
+.card:hover .card-body {
+	display: block;
+}
+
+.card:hover .card-img-top {
+	display: none;
+}
+
 /* Row */
 
 .row {
