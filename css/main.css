@@ -3479,6 +3479,10 @@ input[type="button"]:disabled,
 		min-width: 320px;
 	}
 
+	logo {
+		width: 150 px;
+	}
+
 	body,
 	input,
 	select,
