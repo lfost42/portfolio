@@ -24,6 +24,7 @@
 	}
 	resizeCards($('.card-body-projects'));
 	resizeCards($('.card-body-challenges'));
+	resizeCards($('.card-body-certs'));
 
 	// Breakpoints.
 	breakpoints({
