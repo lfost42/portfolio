@@ -592,6 +592,19 @@ pre code {
 	padding-top: 4em;
 }
 
+	/* card-body-certs */
+	.card .card-body {
+		display: none;
+	}
+
+	.card:hover .card-body {
+		display: block;
+	}
+
+	.card:hover .card-img-top {
+		display: none;
+	}
+
 @media screen and (max-width: 2680px) {
 
 	/* card-body-certs */
