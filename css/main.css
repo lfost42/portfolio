@@ -349,19 +349,6 @@ pre code {
 	text-align: right;
 }
 
-/* card-body-certs */
-.card .card-body {
-	display: none;
-}
-
-.card:hover .card-body {
-	display: block;
-}
-
-.card:hover .card-img-top {
-	display: none;
-}
-
 /* Row */
 
 .row {
@@ -606,6 +593,19 @@ pre code {
 }
 
 @media screen and (max-width: 1680px) {
+
+	/* card-body-certs */
+	.card .card-body {
+		display: none;
+	}
+
+	.card:hover .card-body {
+		display: block;
+	}
+
+	.card:hover .card-img-top {
+		display: none;
+	}
 
 	.row {
 		display: flex;
@@ -852,6 +852,19 @@ pre code {
 
 @media screen and (max-width: 1280px) {
 
+	/* card-body-certs */
+	.card .card-body {
+		display: none;
+	}
+
+	.card:hover .card-body {
+		display: block;
+	}
+
+	.card:hover .card-img-top {
+		display: none;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1097,6 +1110,19 @@ pre code {
 
 @media screen and (max-width: 1024px) {
 
+	/* card-body-certs */
+	.card .card-body {
+		display: none;
+	}
+
+	.card:hover .card-body {
+		display: block;
+	}
+
+	.card:hover .card-img-top {
+		display: none;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1341,6 +1367,19 @@ pre code {
 }
 
 @media screen and (max-width: 736px) {
+
+		/* card-body-certs */
+		.card .card-body {
+			display: block;
+		}
+	
+		.card:hover .card-body {
+			display: block;
+		}
+	
+		.card:hover .card-img-top {
+			display: block;
+		}
 
 	.row {
 		display: flex;
