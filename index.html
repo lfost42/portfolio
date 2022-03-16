@@ -18,6 +18,7 @@
 	<link rel="stylesheet" href="/css/main.css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 
@@ -34,24 +35,13 @@
 		<nav id="nav">
 			<ul>
 				<li><a href="#about" class="active">About</a></li>
-				<li><a href="#skills">Technical Skills</a></li>
+				<li><a href="#tools">Tools</a></li>
 				<li><a href="#projects">Projects</a></li>
-				<li><a href="#challenges">Challenges</a></li>
 				<li><a href="#education">Education</a></li>
 				<li><a href="#certifications">Certifications</a></li>
 				<li><a href="#contact">Contact Me</a></li>
 			</ul>
 		</nav>
-		<footer>
-			<ul class="icons">
-				<li><a href="https://github.com/lfost42" class="icon brands fa-github fs-4"><span
-							class="label">Github</span></a></li>
-				<li><a href="https://www.reddit.com/user/lynda_" class="icon brands fa-reddit-alien fs-4"><span
-							class="label">Reddit</span></a></li>
-				<li><a href="https://www.linkedin.com/in/lynda-foster/" class="icon brands fa-linkedin fs-4"><span
-							class="label">Linkedin</span></a></li>
-			</ul>
-		</footer>
 	</section>
 
 	<!-- ==== WRAPPER ==== -->
@@ -68,14 +58,11 @@
 				<div class="container">
 					<img src="img/brand_brown.png" width="300" height="41" alt="LYNDA FOSTER brand photo"><br>
 					<hr style="width:45%" justify-content-center>
-					<p>Computer Science graduate with the acumen to leverage a diverse background in Accounting,
-						Finance, and Data Analytics to innovate technical solutions to business problems. Produces
-						software solutions that are modular, scalable, maintainable, and easy to expand.
+					<p>.NET C#/SQL software engineer bringing a background in finance and analytics to build technical
+						solutions for a variety of business domains. Project experience displaying scalability and
+						maintainability using Data Access Object (DAO) design pattern with ASP.NET Core MVC and SQL
+						Server. Comfortable with Dapper, Xunit, and GitHub.
 					</p>
-					<ul class="actions special">
-						<li><a href="#projects" class="scrolly btn btn-outline-dark text-dark">Portfolio Projects</a>
-						</li>
-					</ul>
 				</div>
 
 			</section>
@@ -88,24 +75,29 @@
 		<div id="main">
 
 			<!-- ==== SKILLS ==== -->
-
-			<section id="skills">
+			<section id="tools">
 				<div class="container">
-					<h3>Technical Skills</h3>
-					<p></p>
-					<ul class="feature-icons">
-						<li class="icon solid fa-code">.NET (C#), SQL, JavaScript, HTML/CSS using DAO and MVC design
-							patterns</li>
-						<li class="icon solid fa-database"> MS SQL Server and PostgreSQL with object-relational mapping
-							in Dapper</li>
-						<li class="icon solid fa-bolt">Visual Studio (ASP.NET Core), GitHub, Splunk, VSCode, VMware
-						</li>
-						<li class="icon solid fa-box-open">Windows, CentOS, iOS, Mac OS X, OpenVMS Alpha OS</li>
-					</ul>
+					<header class="major">
+						<h3>My Tools</h3>
+					</header>
+					<div class="tools">
+						<div class="col mb-4">
+							<i class="devicon-csharp-plain colored"></i>
+							<i class="devicon-dotnetcore-plain colored"></i>
+							<i class="devicon-javascript-plain colored"></i>
+						</div>
+						<div class="col py-4">
+							<i class="devicon-microsoftsqlserver-plain-wordmark"></i>
+							<i class="devicon-postgresql-plain colored"></i>
+						</div>
+
+					</div>
 				</div>
 			</section>
 		</div>
 	</div>
+
+
 
 	<!-- ==== WRAPPER ==== -->
 	<div id="wrapper">
@@ -117,14 +109,14 @@
 			<section id="projects">
 				<div class="container">
 					<header class="major">
-						<h3>Projects</h3>
+						<h3>Recent and Ongoing Projects</h3>
 					</header>
 
 					<div class="container">
 
-						<div class="row row-cols-1 row-cols-md-2 g-2">
+						<div class="row row-cols-1 g-2 mb-2">
 
-							<div class="col col-sm-6 col-md-6">
+							<div class="col-8 mb-4">
 								<a href="https://github.com/lfost42/BrailleSort" target="new">
 									<div class="card shadow">
 										<img src="img/sort.png" alt="Braille Sort logo" class="card-img-top">
@@ -139,7 +131,7 @@
 								</a>
 							</div>
 
-							<div class="col col-sm-6 col-md-6">
+							<div class="col-8 mb-4">
 								<a href="https://github.com/lfost42/SoftwarePlanner" target="new">
 									<div class="card shadow">
 										<img src="img/planner.png" alt="Software Planner logo" class="card-img-top">
@@ -153,66 +145,42 @@
 								</a>
 							</div>
 
+							<div class="col-8 mb-4">
+								<a href="https://github.com/lfost42/FranchiseCalculator" target="new">
+									<div class="card shadow">
+										<img src="img/franchise.png" alt="Franchise Calculator logo"
+											class="card-img-top">
+										<div class="card-body card-body-challenges">
+											<p class="card-text">
+												Calculate which branch locations are furthest apart using CSV
+												geo-coordinate
+												data.
+											</p>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<!-- <div class="col col-sm-6 col-md-6">
+								<a href="https://lfost42-guestbook.herokuapp.com/Guests">
+									<div class="card shadow">
+										<img src="img/guest.png" alt="Guestbook logo" class="card-img-top">
+										<div class="card-body card-body-challenges">
+											<p class="card-text">
+												Leave contact info, upload a photo, and leave a meessage.
+											</p>
+										</div>
+									</div>
+								</a>
+							</div> -->
+
 						</div>
-
-
-						<ul class="fa-ul pt-2 checklist">
-							<li><span class="fa-li"><i class="fas fa-check-square"></i></span>.NET (C#) and SQL using
-								DAO and MVC design patterns</li>
-							<li><span class="fa-li"><i class="fas fa-check-square"></i></span>PostgreSQL with
-								object-relational mapping in Dapper</li>
-							<li><span class="fa-li"><i class="fas fa-check-square"></i></span>Integrated ticket system
-								for tracking requests, issues, progress, and changes. </li>
-						</ul>
-
 					</div>
 				</div>
+			</section>
 		</div>
-		</section>
-
-		<!-- ==== CHALLENGES ==== -->
-		<section id="challenges">
-			<div class="container">
-				<h3>Coding Challenges</h3>
-				<p>Smaller apps that solve coding challenges and explore topics I will utilize in larger projects.</p>
-				</header>
-
-				<div class="container">
-					<div class="row row-cols-1 g-1 mb-2">
-
-						<div class="col col-sm-5 col-md-5">
-							<a href="https://github.com/lfost42/FranchiseCalculator" target="new">
-								<div class="card shadow">
-									<img src="img/franchise.png" alt="Franchise Calculator logo" class="card-img-top">
-									<div class="card-body card-body-challenges">
-										<p class="card-text">
-											Calculate which branch locations are furthest apart using CSV geo-coordinate
-											data.
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col col-sm-5 col-md-5">
-							<a href="https://lfost42-guestbook.herokuapp.com/Guests">
-								<div class="card shadow">
-									<img src="img/guest.png" alt="Guestbook logo" class="card-img-top">
-									<div class="card-body card-body-challenges">
-										<p class="card-text">
-											Leave contact info, upload a photo, and leave a meessage.
-										</p>
-									</div>
-								</div>
-							</a>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
 	</div>
-	</div>
+
 
 	<!-- ==== WRAPPER ==== -->
 	<div id="wrapper1">
@@ -249,11 +217,14 @@
 		</div>
 	</div>
 
+
+
 	<!-- ==== WRAPPER ==== -->
 	<div id="wrapper">
 
 		<!-- ==== MAIN ==== -->
 		<div id="main">
+
 
 			<!-- ==== CERTIFICATIONS ==== -->
 			<section id="certifications">
@@ -311,6 +282,7 @@
 			</section>
 		</div>
 	</div>
+
 
 	<!-- ==== WRAPPER ==== -->
 	<div id="wrapper1">
