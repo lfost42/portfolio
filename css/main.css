@@ -605,6 +605,10 @@ pre code {
 		display: none;
 	}
 
+	.card .card-footer {
+		display: none;
+	}
+
 @media screen and (max-width: 2680px) {
 
 	/* card-body-certs */
@@ -614,6 +618,11 @@ pre code {
 
 	.card:hover .card-body {
 		display: block;
+	}
+
+	.card:hover .card-body-projects {
+		display: block;
+		padding-bottom: 10rem;
 	}
 
 	.card:hover .card-img-top {
@@ -874,6 +883,11 @@ pre code {
 		display: block;
 	}
 
+	.card:hover .card-body-projects {
+		display: block;
+		padding-bottom: 10rem;
+	}
+
 	.card:hover .card-img-top {
 		display: none;
 	}
@@ -1132,8 +1146,13 @@ pre code {
 		display: block;
 	}
 
-	.card:hover .card-img-top {
-		display: none;
+	.card:hover .card-body {
+		display: block;
+	}
+
+	.card:hover .card-body-projects {
+		display: block;
+		padding-bottom: 10rem;
 	}
 
 	.row {
