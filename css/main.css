@@ -1,6 +1,6 @@
-@import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+/* PORTFOLIO */
 :root {
 	--primary-color: #6b5e51;
 	--dark-color: #1d1c1a;
@@ -210,7 +210,7 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-	border-bottom: solid 1px #e4e4e4;
+	border-bottom-color: transparent;
 	color: inherit;
 	text-decoration: none;
 }
@@ -2124,7 +2124,6 @@ input[type="radio"]+label:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 }
 
@@ -2228,7 +2227,6 @@ input[type="radio"]+label:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
 	font-weight: 400;
 }
 
@@ -2242,10 +2240,6 @@ input[type="radio"]+label:before {
 
 .icon.solid:before {
 	font-weight: 900;
-}
-
-.icon.brands:before {
-	font-family: 'Font Awesome 5 Brands';
 }
 
 /* Image */
@@ -2587,7 +2581,6 @@ ul.feature-icons {
 }
 
 ul.feature-icons li {
-	text-decoration: none;
 	display: inline-block;
 	margin: 0 0 1.6875em 0;
 	padding: 0.35em 0 0 3.5em;
@@ -2605,7 +2598,6 @@ ul.feature-icons li:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
 	font-weight: 400;
 }
 
@@ -2625,6 +2617,12 @@ ul.feature-icons li:before {
 }
 
 /* Icons */
+
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
 
 ul.icons {
 	cursor: default;
@@ -2951,7 +2949,7 @@ input[type="button"]:disabled,
 }
 
 #header a:hover {
-	color: var(--highlight-color) !important;
+	color: var(--highlight-color);
 }
 
 #header>header {
@@ -2996,6 +2994,7 @@ input[type="button"]:disabled,
 
 #header>footer .icons li a {
 	color: var(--white-color);
+	text-decoration: none;
 }
 
 #header>nav {
@@ -3313,7 +3312,6 @@ input[type="button"]:disabled,
 		text-rendering: auto;
 		line-height: 1;
 		text-transform: none !important;
-		font-family: 'Font Awesome 5 Free';
 		font-weight: 900;
 	}
 
