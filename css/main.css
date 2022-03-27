@@ -622,6 +622,7 @@ pre code {
 
 	.card:hover .card-body-projects {
 		display: block;
+		min-height: max-content;
 	}
 
 	.card:hover .card-img-top {
@@ -884,6 +885,7 @@ pre code {
 
 	.card:hover .card-body-projects {
 		display: block;
+		min-height: max-content;
 	}
 
 	.card:hover .card-img-top {
@@ -1150,6 +1152,7 @@ pre code {
 
 	.card:hover .card-body-projects {
 		display: block;
+		min-height: max-content;
 	}
 
 	.row {
