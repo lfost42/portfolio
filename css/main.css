@@ -184,14 +184,14 @@ body {
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
-	-moz-animation: none !important;
-	-webkit-animation: none !important;
-	-ms-animation: none !important;
-	animation: none !important;
-	-moz-transition: none !important;
-	-webkit-transition: none !important;
-	-ms-transition: none !important;
-	transition: none !important;
+	-moz-animation: none;
+	-webkit-animation: none;
+	-ms-animation: none;
+	animation: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+	-ms-transition: none;
+	transition: none;
 }
 
 body,
@@ -217,7 +217,7 @@ a {
 
 a:hover {
 	border-bottom-color: transparent;
-	color: var(--highlight-color) !important;
+	color: var(--highlight-color);
 }
 
 strong,
@@ -1936,7 +1936,7 @@ pre code {
 @media screen and (max-width: 1024px) {
 
 	.container {
-		width: 100% !important;
+		width: 100%;
 	}
 
 }
@@ -2126,7 +2126,7 @@ input[type="radio"]+label:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	text-transform: none;
 	font-weight: 900;
 }
 
@@ -2169,25 +2169,25 @@ input[type="radio"]+label:before {
 }
 
 ::-webkit-input-placeholder {
-	color: #aaa !important;
+	color: #aaa;
 	font-style: italic;
 	opacity: 1.0;
 }
 
 :-moz-placeholder {
-	color: #aaa !important;
+	color: #aaa;
 	font-style: italic;
 	opacity: 1.0;
 }
 
 ::-moz-placeholder {
-	color: #aaa !important;
+	color: #aaa;
 	font-style: italic;
 	opacity: 1.0;
 }
 
 :-ms-input-placeholder {
-	color: #aaa !important;
+	color: #aaa;
 	font-style: italic;
 	opacity: 1.0;
 }
@@ -2229,7 +2229,7 @@ input[type="radio"]+label:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	text-transform: none;
 	font-weight: 400;
 }
 
@@ -2533,7 +2533,7 @@ ul.actions.fit.stacked {
 		-ms-flex-direction: column;
 		flex-direction: column;
 		margin-left: 0;
-		width: 100% !important;
+		width: 100%;
 	}
 
 	ul.actions:not(.fixed) li {
@@ -2600,7 +2600,7 @@ ul.feature-icons li:before {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	text-transform: none !important;
+	text-transform: none;
 	font-weight: 400;
 }
 
@@ -2639,7 +2639,7 @@ ul.icons li {
 }
 
 ul.icons li:last-child {
-	padding-right: 0 !important;
+	padding-right: 0;
 }
 
 ul.icons li .icon:before {
@@ -2730,7 +2730,7 @@ input[type="button"],
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 	background-color: var(--dark-color);
 	border: 0;
-	color: var(--white-color) !important;
+	color: var(--white-color);
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 700;
@@ -2747,7 +2747,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
 	background-color: var(--primary-color);
-	color: var(--white-color) !important;
+	color: var(--white-color);
 	box-shadow: 0.5px 0.5px var(--highlight-color);
 }
 
@@ -2800,7 +2800,7 @@ input[type="button"].alt,
 .button.alt {
 	background-color: transparent;
 	box-shadow: inset 0 0 0 2px var(--white-color);
-	color: #777 !important;
+	color: #777;
 }
 
 input[type="submit"].alt:hover,
@@ -2808,7 +2808,7 @@ input[type="reset"].alt:hover,
 input[type="button"].alt:hover,
 .button.alt:hover {
 	background-color: var(--primary-color);
-	color: #777 !important;
+	color: #777;
 	box-shadow: 5px 5px var(--highlight-color);
 }
 
@@ -2831,7 +2831,7 @@ input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
 	background-color: var(--primary-color);
-	color: var(--white-color) !important;
+	color: var(--white-color);
 }
 
 input[type="submit"].primary:hover,
@@ -2857,9 +2857,9 @@ input[type="button"].disabled,
 input[type="button"]:disabled,
 .button.disabled,
 .button:disabled {
-	background-color: var(--danger-color) !important;
+	background-color: var(--danger-color);
 	box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-	color: var(--white-color) !important;
+	color: var(--white-color);
 	cursor: default;
 	opacity: 0.25;
 }
@@ -3025,7 +3025,7 @@ input[type="button"]:disabled,
 	-ms-transition: none;
 	transition: none;
 	border: 0;
-	color: var(--white-color) !important;
+	color: var(--white-color);
 	display: block;
 	padding: 0.85em 0;
 	text-decoration: none;
@@ -3033,7 +3033,7 @@ input[type="button"]:disabled,
 
 #header>nav ul li a.active {
 	background: var(--white-color);
-	color: var(--dark-color) !important;
+	color: var(--dark-color);
 }
 
 #header>nav ul li:first-child {
@@ -3314,7 +3314,7 @@ input[type="button"]:disabled,
 		font-variant: normal;
 		text-rendering: auto;
 		line-height: 1;
-		text-transform: none !important;
+		text-transform: none;
 		font-weight: 900;
 	}
 
@@ -3545,7 +3545,7 @@ input[type="button"]:disabled,
 
 	ul.actions li>* {
 		width: 100%;
-		margin: 0 !important;
+		margin: 0;
 	}
 
 	ul.actions li>*.icon:before {
