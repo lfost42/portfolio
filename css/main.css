@@ -3307,23 +3307,11 @@ input[type="button"]:disabled,
 	}
 
 	#titleBar .toggle:before {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: antialiased;
-		display: inline-block;
-		font-style: normal;
-		font-variant: normal;
-		text-rendering: auto;
-		line-height: 1;
-		text-transform: none;
-		font-weight: 900;
-	}
-
-	#titleBar .toggle:before {
 		background: var(--highlight-color);
 		color: var(--white-color);
-		content: '\f0c9';
-		display: block;
-		font-size: 18px;
+		content: '⦾';
+		display: hidden;
+		font-size: 2em;
 		height: 44px;
 		line-height: 44px;
 		position: absolute;
