@@ -22,21 +22,28 @@
 			$(cards[i]).height(maxHeight);
 		}
 	}
-	resizeCards($('.card-body-challenges'));
 	resizeCards($('.card-body-certs'));
+	resizeCards($('.body-projects'));
 
-	//resize project cards to have the same top-project as card-body-project
-	var tops = $('.top-projects');
-	var body = $('.body-projects')
-	var height = 0;
 
-	// Take height of tops
-	height = $(tops[i]).outerHeight();
+	let media = window.matchMedia("(max-width: 736px)");
+	let pCards = $('.body-projects');
+	let pHeight = $(pCards).outerHeight();
 
-	// Set ALL card bodies to this height
-	for (var i = 0; i < body.length; i++) {
-		$(body[i]).height(maxHeight * 2);
+	function cardBody(media) {
+		if (media.matches) { // If media query matches
+			$(pCards).height(pHeight);
+		} else {
+			$(pCards).height(pHeight * 1.37);
+		}
 	}
+
+	// let pCards = $('.body-projects');
+	// let pHeight = $(pCards).outerHeight();
+	// $(pCards).height(pHeight * 1.37);
+
+	cardBody(media); // Call listener function at run time
+	media.addEventListener(cardBody) // Attach listener function on state changes
 
 	// Breakpoints.
 	breakpoints({
