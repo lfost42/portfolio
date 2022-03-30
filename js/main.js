@@ -22,9 +22,21 @@
 			$(cards[i]).height(maxHeight);
 		}
 	}
-	resizeCards($('.card-body-projects'));
 	resizeCards($('.card-body-challenges'));
 	resizeCards($('.card-body-certs'));
+
+	//resize project cards to have the same top-project as card-body-project
+	var tops = $('.top-projects');
+	var body = $('.body-projects')
+	var height = 0;
+
+	// Take height of tops
+	height = $(tops[i]).outerHeight();
+
+	// Set ALL card bodies to this height
+	for (var i = 0; i < body.length; i++) {
+		$(body[i]).height(maxHeight * 2);
+	}
 
 	// Breakpoints.
 	breakpoints({
