@@ -1,7 +1,7 @@
 # My Coding Portfolio
 https://lfost42-portfolio.netlify.app
 
-![logo](./img/portfolio.png)
+![logo](./img/preview.png)
 
 Planned Updates:
 
