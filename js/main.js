@@ -34,7 +34,7 @@
 		if (media.matches) { // If media query matches
 			$(pCards).height(pHeight);
 		} else {
-			$(pCards).height(pHeight * 0.66);
+			$(pCards).height(pHeight * 0.55);
 		}
 	}
 
