@@ -3563,3 +3563,7 @@ input[type="button"]:disabled,
 	}
 
 }
+
+#commentSection {
+    display: none;
+}
