@@ -61,8 +61,6 @@
 		}, 100);
 	});
 
-	// Tweaks/fixes.
-
 	// Polyfill: Object fit.
 	if (!browser.canUse('object-fit')) {
 
