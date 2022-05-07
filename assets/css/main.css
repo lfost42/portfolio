@@ -9,7 +9,6 @@
 	--white-color1: #fffefd;
 	--highlight-color: #F6DDC5;
 	--warning-color: #F98B77;
-	--danger-color: #A63228;
 }
 
 html,
@@ -338,7 +337,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #000000;
+	color: var(--dark-color);
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-weight: 600;
 	letter-spacing: 0.175em;
