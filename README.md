@@ -1,4 +1,4 @@
 # My Coding Portfolio
 https://lfost42-portfolio.netlify.app
 
-![logo](./assets/images/preview.png)
+![logo](./images/preview.png)
