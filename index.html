@@ -7,11 +7,15 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<meta property="og:title" content="Portfolio" />
-	<meta property="og:url" content="http://lfost42-blog.herokuapp.com" />
-	<meta property="og:image" content="http://lfost42-portfolio/images/preview.png" alt="Lynda Foster banner" />
+	<meta property="og:url" content="http://lfost42-portfolio.netlify.app" />
+	<meta property="og:image" content="http://lfost42-portfolio.netlify.app/images/preview.png"
+		alt="Lynda Foster banner" />
 	<meta property="og:image:alt" content="portfolio preview" />
 	<meta property="og:site_name" content="by Lynda Foster" />
 	<meta property="og:locale" content="en_US" />
+	<meta name="twitter:card" content="summary">
+	</meta>
+
 	<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -93,7 +97,7 @@
 						<p>
 						<p>Implements identity/role based access and rendering with Google SMTP email services.</p>
 						<p>Consumes a .NET Web API that provides authentication via JWT (JSON Web Token) and Google
-							OAuth 2.0. (in progress)</p>
+							OAuth 2.0. --in progress</p>
 						<ul class="actions">
 							<li><a href="https://lfost42-blog.herokuapp.com/" class="button default">APP</a></li>
 							<li><a href="https://github.com/lfost42/MyBlog" class="button default">CODE</a></li>
@@ -261,7 +265,7 @@
 						<div class="field">
 							<textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
 						</div>
-						<div data-netlify-recaptcha="true" class="field"></div>
+						<div class="field" data-netlify-recaptcha="true"></div>
 					</div>
 					<ul class="actions">
 						<li><input type="submit" value="Send Message" class="button large" /></li>
