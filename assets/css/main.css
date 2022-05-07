@@ -337,7 +337,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: var(--dark-color);
+	color: black;
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-weight: 600;
 	letter-spacing: 0.175em;
@@ -3431,7 +3431,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:before,
 #wrapper>section>header h2:before {
-	background: var(--dark-color);
+	background: black;
 	/*ticks*/
 	content: '';
 	display: block;
@@ -3442,7 +3442,7 @@ ul.feature-icons li:nth-child(2) {
 
 #wrapper>section>header h1:after,
 #wrapper>section>header h2:after {
-	background: var(--dark-color);
+	background: black;
 	/*node ends*/
 	border-radius: 0.5rem;
 	content: '';
