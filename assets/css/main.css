@@ -3095,6 +3095,11 @@ a.arrow .label {
 
 .gallery a.portrait img {
 	height: 30vw;
+	border: 0.5px solid var(--dark-color);
+}
+
+.gallery a.portrait:hover {
+	box-shadow: 0 4px 8px 0 var(--primary-color), 0 6px 20px 0 var(--primary-color);
 }
 
 .gallery .modal {
@@ -3226,7 +3231,7 @@ a.arrow .label {
 
 	.gallery a.landscape img,
 	.gallery .landscape img {
-		height: 12.5rem;
+		height: 20rem;
 	}
 
 	.gallery a.portrait img {
