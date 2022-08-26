@@ -2344,7 +2344,7 @@ input[type="radio"]+label {
 	display: inline-block;
 	font-family: "Quicksand", "Helvetica", sans-serif;
 	font-size: 1rem;
-	font-weight: 500;
+	font-weight: 600;
 	letter-spacing: 0.0375em;
 	padding-left: 2.675rem;
 	padding-right: 0.875rem;
@@ -2468,7 +2468,7 @@ input[type="radio"]+label:before {
 	line-height: 1;
 	text-transform: none;
 	font-family: 'Font Awesome 5 Free';
-	font-weight: 500;
+	font-weight: 600;
 }
 
 .icon>.label {
